@@ -1,5 +1,5 @@
 # Automated Sales Performance Reporting System 🚀
-<img src="https://geps.dev/progress/40" alt="40% Complete" width="200"/>
+<img src="https://geps.dev/progress/40" alt="40% Complete" width="100"/>
 
 **A Python-based ETL pipeline for daily sales performance monitoring with automated alerts.**
 
