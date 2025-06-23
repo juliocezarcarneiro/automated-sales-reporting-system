@@ -1,32 +1,44 @@
-# Automated Sales Performance Reporting System
+# Automated Sales Performance Reporting System 🚀
+<img src="https://geps.dev/progress/40" alt="40% Complete" width="200"/>
 
-## Overview
-This project automates daily operational performance monitoring, providing:
-- Daily performance briefings
-- Exception-based alerts for underperforming regions
-- Data quality validation checks
+**A Python-based ETL pipeline for daily sales performance monitoring with automated alerts.**
 
-## Technologies Used
-- Python (Pandas)
-- SQL (SQLite)
-- Apache Airflow
-- HTML reporting
+---
 
-## Features
-- ETL pipeline for operational data
-- Key metrics calculation (fulfillment rate, return rate)
-- Automated reporting
-- Data quality validation
-- Alerting for underperformance
+## 📌 Overview
+This system automates daily sales performance tracking with:
+- **Daily performance briefings** (HTML/PDF/Email)
+- **Real-time alerts** for underperforming regions/products
+- **Data validation** to ensure reporting accuracy
 
-## Setup Instructions
-1. Clone this repository
-2. Set up virtual environment
-3. Install dependencies
-4. Generate sample Data
-5. Set up database
-6. Start Airflow: 
-   - `airflow db init`
-   - `airflow webserver --port 8080`
-   - `airflow scheduler`
-7. Access the Airflow UI at http://localhost:8080
+---
+
+## 🛠️ Technologies Used
+| Category       | Technologies                          |
+|----------------|---------------------------------------|
+| **Core**       | Python (Pandas, SQLAlchemy)           |
+| **Database**   | SQLite (PostgreSQL-ready)             |
+| **Orchestration** | Apache Airflow                      |
+| **Reporting**  | HTML, CSS, Jinja2                     |
+| **Alerting**   | Slack/Email (SMTP) integration        |
+
+---
+
+## ✨ Key Features
+| Feature                      | Description                                  |
+|------------------------------|---------------------------------------------|
+| **Automated ETL**            | Daily data pulls from multiple sources      |
+| **Smart Alerts**             | Threshold-based notifications (Slack/Email) |
+| **Data Quality Checks**      | Null detection, outlier flagging            |
+| **Parameterized Reports**    | Region/team/department-level filtering      |
+| **Self-healing Pipeline**    | Auto-retry for failed tasks                 |
+
+---
+
+## 🚀 Installation & Setup
+
+### Prerequisites
+- Python
+- Airflow
+- SQLite/PostgreSQL
+
